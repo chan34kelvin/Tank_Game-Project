@@ -101,7 +101,12 @@ public class MoveableTank extends Moveable{
             percentOfHealth = 1;
             totalLives--;
         } else
-            percentOfHealth-= (damage-reduceDamage);
+            if(reduceDamage >= damage){
+                //lowest damage you can take as the shield keeps reducing your damage by 0.013
+                percentOfHealth-= (0.013);
+            }else{
+                percentOfHealth-= (damage-reduceDamage);
+            }
     }
 
     //get methods to allow objects with tank to know its status on different booleans
