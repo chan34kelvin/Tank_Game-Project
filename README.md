@@ -30,7 +30,7 @@ https://docs.google.com/document/d/11ERijenB2gNeqJ2-vQjpqGtCcQYjgSVv3QNRJqr59pw/
 
 # Installation
 
-Choose where you want to store this game and git clone this repo.
+Open terminal and choose (Ex: cd Documents) where you want to store this game and git clone this repo.
 
 ## Pre-Requisites
 This game requires Java to run, have the latest Java installed and the latest Intellij Community IDE Version.
@@ -39,8 +39,15 @@ This game requires Java to run, have the latest Java installed and the latest In
 
 - Open IDE, go to file on the upper left and open the repo you just cloned.
 - Go back to file again and select project structure.
-- Inside project structure, choose artifacts and click + in the top left corner, select JAR and click from module.
+- In projects, make sure you have the latest sdk Ex: (openjdk-18 oracle openjdk verison 18) (this is the latest when I uploaded this project).
+- Inside the same project structure window, choose artifacts and click + in the top left corner, select JAR and click from module. See images below.
+
+![Screenshot](./images/Jar-Installation-Start.png)
+
 - Choose the tank game main class and click apply in the bottom right corner.
+
+![Screenshot](./images/Jar-Installation.png)
+
 - Go to module, click the srcs folder and in "mark as" section click sources, you will see the srcs folder added to the right side. 
 - Do the same thing here by clicking resources folder and click sources in the "mark as" section again, you will see the resources folder added to the right side as well.
 
@@ -51,7 +58,10 @@ This game requires Java to run, have the latest Java installed and the latest In
 
 ![Screenshot](./images/Resources-Example.png)
 
-- Go to TankGame/TankGameMain and find the green play button right next to the main class and click it.
+- Go to TankGame/TankGameMain and find the green play button right next to the main class and click it. See images below.
+
+![Screenshot](./images/Find-Main-Class.png)
+![Screenshot](./images/Run-Main-Button.png)
 
 - You have successfully run the tank game.
 
