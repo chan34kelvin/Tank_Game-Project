@@ -6,7 +6,7 @@ The goal is simple: defeat your opponent by shooting bullets strategically. Alon
 
 This project demonstrates my skills in Java Swing GUI development, implementing the MVC pattern effectively, and creating interfaces that are easy to use and provide an enjoyable gaming experience.
 
-- Installations, Player Instructions are all below this.
+- **Game Installation, Player Instructions are all below this.**
 
 # Creator
 
@@ -43,10 +43,10 @@ This game requires Java to run, have the latest Java installed and the latest In
 - Choose the tank game main class and click apply in the bottom right corner.
 - Go to module, click the srcs folder and in "mark as" section click sources, you will see the srcs folder added to the right side. 
 - Do the same thing here by clicking resources folder and click sources in the "mark as" section again, you will see the resources folder added to the right side as well.
-![Screenshot]: (./images/Project-Structure-Example.png)
+![Screenshot](./images/Project-Structure-Example.png)
 - After you see the same as the picture shown above, click apply.
 - Check resources folder to see if all the images are inside as shown below.
-![Screenshot]: (./images/Resources-Example.png)
+![Screenshot](./images/Resources-Example.png)
 - Go to TankGame/TankGameMain and find the green play button right next to the main class and click it.
 
 - You have successfully run the tank game.
@@ -103,3 +103,24 @@ Minimap is in the center to provide full vision of the map.
 Rules: The player must defeat its opponent by using any usable pickups to assist. You must shoot the tanks until all lives are gone to win the game. No other rules, pure survival.
 
 The loser or the person defeated will be displayed at the ending screen. Users can choose to restart.
+
+# Project Snapshots
+
+![Screenshot](./images/Start-Game.png)
+![Screenshot](./images/In-Game.png)
+![Screenshot](./images/Battlefield.png)
+![Screenshot](./images/End-Game.png)
+
+# Development Environment
+
+- Version of Java : Java 14
+
+- IDE used: IntelliJ IDEA Ultimate Edition 2020.1.1 x64
+
+# Resources
+
+The “heart.png” is obtained and downloaded from the below website and used as a tank live image.
+
+https://banner2.cleanpng.com/20180318/plw/kisspng-love-heart-love-heart-romance-clip-art-picture-of-red-heart-5aaeb7181ca327.7123730415213995761173.jpg
+
+“Tank1.png” and “Tank2.png” colored tanks were from Slack forum. Both were posted by Professor Anthony Souza. 
