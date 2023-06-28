@@ -110,10 +110,10 @@ The loser or the person defeated will be displayed at the ending screen. Users c
 
 # Project Snapshots
 
-![Screenshot](./images/Start-Game.png)
-![Screenshot](./images/In-Game.png)
-![Screenshot](./images/Battlefield.png)
-![Screenshot](./images/End-Game.png)
+![Screenshot](images/snapshots/Start-Game.png)
+![Screenshot](images/snapshots/In-Game.png)
+![Screenshot](./images/snapshots/Battlefield.png)
+![Screenshot](./images/snapshots/End-Game.png)
 
 # Development Environment
 
