@@ -43,10 +43,14 @@ This game requires Java to run, have the latest Java installed and the latest In
 - Choose the tank game main class and click apply in the bottom right corner.
 - Go to module, click the srcs folder and in "mark as" section click sources, you will see the srcs folder added to the right side. 
 - Do the same thing here by clicking resources folder and click sources in the "mark as" section again, you will see the resources folder added to the right side as well.
+
 ![Screenshot](./images/Project-Structure-Example.png)
+
 - After you see the same as the picture shown above, click apply.
 - Check resources folder to see if all the images are inside as shown below.
+
 ![Screenshot](./images/Resources-Example.png)
+
 - Go to TankGame/TankGameMain and find the green play button right next to the main class and click it.
 
 - You have successfully run the tank game.
