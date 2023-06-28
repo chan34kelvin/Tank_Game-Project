@@ -12,7 +12,7 @@ This project demonstrates my skills in Java Swing GUI development, implementing 
 
 - Kelvin Chan (Github: chan34kelvin)
 
-# THe MVC of Tank Game
+# The MVC of Tank Game
 
 Models - Tank-Game Objects are defined here, all the values, business logics, and the behaviours are encapsulated (Data hiding, abstraction (interfaces), consistency). Dividing them into Static and Moving objects.
 - the x, y, hit-box range of the object.
