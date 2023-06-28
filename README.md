@@ -1,6 +1,6 @@
-# CSC-413 Tank_Game
+# CSC_413-Term_Project-Tank_Game
 
-I created a fun 2D tank game using Java Swing GUI and the Model-View-Controller (MVC) pattern. It's a one-on-one battle where you control a tank on a split-screen. There's a handy minimap that shows the real-time map layout and actions.
+This is a 2D tank game using Java Swing GUI and the Model-View-Controller (MVC) pattern. It's a one-on-one battle where you control a tank on a split-screen. There's a handy minimap that shows the real-time map layout and actions.
 
 The goal is simple: defeat your opponent by shooting bullets strategically. Along the way, you can collect power-ups like shields and rockets to gain an edge. To make things interesting, the game includes indestructible walls and breakable walls that divide the ability zone in the middle of the map.
 
@@ -12,7 +12,7 @@ This project demonstrates my skills in Java Swing GUI development, implementing 
 
 - Kelvin Chan (Github: chan34kelvin)
 
-# Explanation of the MVC used in the Tank Game
+# THe MVC of Tank Game
 
 Models - Tank-Game Objects are defined here, all the values, business logics, and the behaviours are encapsulated (Data hiding, abstraction (interfaces), consistency). Dividing them into Static and Moving objects.
 - the x, y, hit-box range of the object.
@@ -23,6 +23,10 @@ Models - Tank-Game Objects are defined here, all the values, business logics, an
 Views - Game Screens are defined here, the starting, ending, and gaming panels, the buttons, the controls.
 
 Controller - This is where the key listeners are for the tank game. Where the initialization of the tank game happens. Listens to changes in the model and updates the view, like user interactions.
+
+# Documentations
+
+https://docs.google.com/document/d/11ERijenB2gNeqJ2-vQjpqGtCcQYjgSVv3QNRJqr59pw/edit?usp=sharing
 
 # Installation
 
@@ -39,13 +43,15 @@ This game requires Java to run, have the latest Java installed and the latest In
 - Choose the tank game main class and click apply in the bottom right corner.
 - Go to module, click the srcs folder and in "mark as" section click sources, you will see the srcs folder added to the right side. 
 - Do the same thing here by clicking resources folder and click sources in the "mark as" section again, you will see the resources folder added to the right side as well.
+![Screenshot]: (./images/Project-Structure-Example.png)
 - After you see the same as the picture shown above, click apply.
 - Check resources folder to see if all the images are inside as shown below.
+![Screenshot]: (./images/Resources-Example.png)
 - Go to TankGame/TankGameMain and find the green play button right next to the main class and click it.
 
 - You have successfully run the tank game.
 
-# Run Game and Controls
+# Run Game and the Controls
 
 To run the game, you must click the play button in the main class.
 
