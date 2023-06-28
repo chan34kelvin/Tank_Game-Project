@@ -1,7 +1,7 @@
-package TankGame.DisplayObjects.Moveable;
+package TankGame.Models.Moveable;
 
-import TankGame.DisplayObjects.Static.StaticLive;
-import TankGame.DisplayObjects.Static.StaticObjects;
+import TankGame.Models.Static.StaticLive;
+import TankGame.Models.Static.StaticObjects;
 import TankGame.GameInfoConstants;
 
 import java.awt.*;
@@ -52,7 +52,7 @@ public class MoveableTank extends Moveable{
                 tankOptionInts= tankOption2Ints;
                 tankOptionStr= tankOption2Str;
         }
-        this.initializeDisplayObject(tankOptionInts[0],tankOptionInts[1],tankOptionStr);
+        this.initializeTankGameModel(tankOptionInts[0],tankOptionInts[1],tankOptionStr);
         this.loadObjectImage();
         super.objectWidth-= objectWidth/modifiedBy;
         super.objectHeight-= objectHeight/modifiedBy;

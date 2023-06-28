@@ -1,6 +1,6 @@
-package TankGame.DisplayObjects.Static;
+package TankGame.Models.Static;
 
-import TankGame.DisplayObjects.Moveable.Moveable;
+import TankGame.Models.Moveable.Moveable;
 
 public class StaticBackground extends Static {
     /*
@@ -11,7 +11,7 @@ public class StaticBackground extends Static {
      */
 
     public StaticBackground(int x, int y){
-        this.initializeDisplayObject(x,y,"Background.bmp");
+        this.initializeTankGameModel(x,y,"Background.bmp");
         this.loadObjectImage();
         this.loadObjectHitBox();
     }

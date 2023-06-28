@@ -1,7 +1,7 @@
-package TankGame.DisplayObjects.Static;
+package TankGame.Models.Static;
 
-import TankGame.DisplayObjects.Moveable.Moveable;
-import TankGame.DisplayObjects.Moveable.MoveableTank;
+import TankGame.Models.Moveable.Moveable;
+import TankGame.Models.Moveable.MoveableTank;
 
 import java.awt.*;
 
@@ -17,7 +17,7 @@ public class StaticLive extends Static{
 
     public StaticLive(MoveableTank tankObject){
         super.toCheck= false;
-        this.initializeDisplayObject(0,0,"heart.png");
+        this.initializeTankGameModel(0,0,"heart.png");
         this.loadObjectImage();
         this.loadObjectHitBox();
     }

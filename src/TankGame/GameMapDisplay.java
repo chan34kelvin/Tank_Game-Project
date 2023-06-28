@@ -1,8 +1,7 @@
-package TankGame.DisplayObjects;
+package TankGame;
 
-import TankGame.DisplayObjects.Moveable.MoveableTank;
-import TankGame.DisplayObjects.Static.StaticObjects;
-import TankGame.GameInfoConstants;
+import TankGame.Models.Moveable.MoveableTank;
+import TankGame.Models.Static.StaticObjects;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -20,13 +19,13 @@ public class GameMapDisplay{
     private Graphics2D gameMapGraphics;
 
     //abbreviations for the long constant names
-    private final int w= GameInfoConstants.SCREEN_WIDTH;
-    private final int h= GameInfoConstants.SCREEN_HEIGHT;
-    private final int gw= GameInfoConstants.GAME_SCREEN_WIDTH;
-    private final int gh= GameInfoConstants.GAME_SCREEN_HEIGHT;
+    private final int screenWidth = GameInfoConstants.SCREEN_WIDTH;
+    private final int screenHeight = GameInfoConstants.SCREEN_HEIGHT;
+    private final int gameScreenWidth = GameInfoConstants.GAME_SCREEN_WIDTH;
+    private final int gameScreenHeight = GameInfoConstants.GAME_SCREEN_HEIGHT;
 
     public GameMapDisplay(){
-        gameMap= new BufferedImage(gw+17,gh+40,BufferedImage.TYPE_INT_RGB);
+        gameMap= new BufferedImage(gameScreenWidth +17, gameScreenHeight +40,BufferedImage.TYPE_INT_RGB);
         gameMapGraphics= gameMap.createGraphics();
     }
 
@@ -34,26 +33,26 @@ public class GameMapDisplay{
         staticObjects.drawStaticObjects(gameMapGraphics);
         tankPlayerOne.drawImage(gameMapGraphics);
         tankPlayerTwo.drawImage(gameMapGraphics);
-        miniMap= gameMap.getSubimage(0,0,gw,gh);
-        gameMapOne= gameMap.getSubimage(modX(tankPlayerOne.getDisplayObjectX()),modY(tankPlayerOne.getDisplayObjectY()),w/2,h);
-        gameMapTwo= gameMap.getSubimage(modX(tankPlayerTwo.getDisplayObjectX()),modY(tankPlayerTwo.getDisplayObjectY()),w/2,h);
+        miniMap= gameMap.getSubimage(0,0, gameScreenWidth, gameScreenHeight);
+        gameMapOne= gameMap.getSubimage(modX(tankPlayerOne.getDisplayObjectX()),modY(tankPlayerOne.getDisplayObjectY()), screenWidth /2, screenHeight);
+        gameMapTwo= gameMap.getSubimage(modX(tankPlayerTwo.getDisplayObjectX()),modY(tankPlayerTwo.getDisplayObjectY()), screenWidth /2, screenHeight);
     }
 
     //to check either the displayX and Ys are out of range for its width and height, if is adjust it with minus the current w or h
     public int modX(int objectX){
-        return objectX>(gw-512)?gw-512:objectX;
+        return objectX>(gameScreenWidth -512)? gameScreenWidth -512:objectX;
     }
 
     public int modY(int objectY){
-        return objectY>(gh- h)?gh- h:objectY;
+        return objectY>(gameScreenHeight - screenHeight)? gameScreenHeight - screenHeight :objectY;
     }
 
     public void drawImage(Graphics2D graphics){
         graphics.drawImage(gameMap,0,0,null);
         graphics.drawImage(gameMapTwo,0,0,null);
-        graphics.drawImage(gameMapOne,w/2,0,null);
+        graphics.drawImage(gameMapOne, screenWidth /2,0,null);
         //scale the whole map to 0.1 to make a miniMap
         graphics.scale(0.1,0.1);
-        graphics.drawImage(miniMap,gw*2,gh*2,null);
+        graphics.drawImage(miniMap, gameScreenWidth *2, gameScreenHeight *2,null);
     }
 }

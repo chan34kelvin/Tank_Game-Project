@@ -1,6 +1,6 @@
 package TankGame.TankPlayerControls;
 
-import TankGame.DisplayObjects.Moveable.MoveableTank;
+import TankGame.Models.Moveable.MoveableTank;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;

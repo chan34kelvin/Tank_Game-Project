@@ -1,4 +1,4 @@
-package TankGame.DisplayObjects.Static;
+package TankGame.Models.Static;
 
 import TankGame.GameInfoConstants;
 

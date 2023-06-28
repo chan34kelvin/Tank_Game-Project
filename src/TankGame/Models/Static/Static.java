@@ -1,10 +1,10 @@
-package TankGame.DisplayObjects.Static;
+package TankGame.Models.Static;
 
-import TankGame.DisplayObjects.DisplayObject;
+import TankGame.Models.TankGameModel;
 
 import java.awt.*;
 
-public abstract class Static extends DisplayObject {
+public abstract class Static extends TankGameModel {
     /*
     (comments)(DisplayObject)(Static)
         finished.

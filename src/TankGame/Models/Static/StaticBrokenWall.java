@@ -1,7 +1,7 @@
-package TankGame.DisplayObjects.Static;
+package TankGame.Models.Static;
 
-import TankGame.DisplayObjects.Moveable.Moveable;
-import TankGame.DisplayObjects.Moveable.MoveableBullet;
+import TankGame.Models.Moveable.Moveable;
+import TankGame.Models.Moveable.MoveableBullet;
 
 public class StaticBrokenWall extends Static{
     /*
@@ -15,7 +15,7 @@ public class StaticBrokenWall extends Static{
 
     public StaticBrokenWall(int x, int y){
         super.toCheck= true;
-        this.initializeDisplayObject(x,y,"Wall2.gif");
+        this.initializeTankGameModel(x,y,"Wall2.gif");
         this.loadObjectImage();
         this.loadObjectHitBox();
     }

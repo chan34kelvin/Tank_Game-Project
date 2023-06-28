@@ -1,12 +1,12 @@
-package TankGame.DisplayObjects.Moveable;
+package TankGame.Models.Moveable;
 
-import TankGame.DisplayObjects.DisplayObject;
-import TankGame.DisplayObjects.Static.Static;
-import TankGame.DisplayObjects.Static.StaticObjects;
+import TankGame.Models.TankGameModel;
+import TankGame.Models.Static.Static;
+import TankGame.Models.Static.StaticObjects;
 
 import java.awt.*;
 
-public abstract class Moveable extends DisplayObject {
+public abstract class Moveable extends TankGameModel {
     /*
     (comments)(DisplayObject)(Moveable)
         finished.

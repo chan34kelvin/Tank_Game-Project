@@ -1,4 +1,4 @@
-package TankGame.DisplayObjects.Moveable;
+package TankGame.Models.Moveable;
 
 import java.awt.*;
 import java.awt.geom.AffineTransform;
@@ -21,7 +21,7 @@ public class MoveableBullet extends Moveable{
 
     public MoveableBullet(MoveableTank tankObject){
         this.isRocket= tankObject.getShootRockets();
-        this.initializeDisplayObject((tankObject.getObjectX())+modifiedBy,(tankObject.getObjectY())+modifiedBy,this.getResource());
+        this.initializeTankGameModel((tankObject.getObjectX())+modifiedBy,(tankObject.getObjectY())+modifiedBy,this.getResource());
         this.loadObjectImage();
         this.loadObjectHitBox();
         this.initializeMoveablePart1(4, tankObject.objectAngle, tankObject.tankOpponent);

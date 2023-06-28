@@ -1,7 +1,7 @@
-package TankGame.DisplayObjects.Static;
+package TankGame.Models.Static;
 
-import TankGame.DisplayObjects.Moveable.Moveable;
-import TankGame.DisplayObjects.Moveable.MoveableBullet;
+import TankGame.Models.Moveable.Moveable;
+import TankGame.Models.Moveable.MoveableBullet;
 
 import java.awt.*;
 
@@ -15,7 +15,7 @@ public class StaticWall extends Static {
 
     public StaticWall(int x, int y){
         super.toCheck= true;
-        this.initializeDisplayObject(x,y,"Wall1.gif");
+        this.initializeTankGameModel(x,y,"Wall1.gif");
         this.loadObjectImage();
         this.loadObjectHitBox();
     }

@@ -1,12 +1,12 @@
-package TankGame.DisplayObjects;
+package TankGame.Models;
 
-import TankGame.DisplayObjects.Moveable.Moveable;
+import TankGame.Models.Moveable.Moveable;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 
-public abstract class DisplayObject {
+public abstract class TankGameModel {
     /*
     (comments)(DisplayObject)
         finished.
@@ -22,7 +22,7 @@ public abstract class DisplayObject {
     protected Rectangle objectHitBox;
     protected BufferedImage objectImage;
 
-    public void initializeDisplayObject(int objectX, int objectY, String nameOfResource){
+    public void initializeTankGameModel(int objectX, int objectY, String nameOfResource){
         this.objectX= objectX;
         this.objectY= objectY;
         this.nameOfResource= nameOfResource;

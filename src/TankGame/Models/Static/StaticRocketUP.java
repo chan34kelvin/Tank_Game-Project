@@ -1,7 +1,7 @@
-package TankGame.DisplayObjects.Static;
+package TankGame.Models.Static;
 
-import TankGame.DisplayObjects.Moveable.Moveable;
-import TankGame.DisplayObjects.Moveable.MoveableTank;
+import TankGame.Models.Moveable.Moveable;
+import TankGame.Models.Moveable.MoveableTank;
 
 public class StaticRocketUP extends Static{
     /*
@@ -15,7 +15,7 @@ public class StaticRocketUP extends Static{
 
     public StaticRocketUP(int x, int y){
         super.toCheck= true;
-        this.initializeDisplayObject(x,y,"Pickup.gif");
+        this.initializeTankGameModel(x,y,"Pickup.gif");
         this.loadObjectImage();
         this.loadObjectHitBox();
     }
