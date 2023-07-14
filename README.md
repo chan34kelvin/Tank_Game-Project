@@ -35,6 +35,12 @@ Open terminal and choose (Ex: cd Documents) where you want to store this game an
 ## Pre-Requisites
 This game requires Java to run, have the latest Java installed and the latest Intellij Community IDE Version.
 
+## To Play Game Directly
+
+Go to jar folder and open the jar inside, it contains the game and is ready to play.
+
+**Skip steps below if it works. Else the steps below can help you make it work. Game Controls below**
+
 ## Steps when IDE installed
 
 - Open IDE, go to file on the upper left and open the repo you just cloned.
