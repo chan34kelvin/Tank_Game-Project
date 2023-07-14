@@ -36,7 +36,7 @@ Open terminal and choose (Ex: cd Documents) where you want to store this game an
 
 This game requires Java to run, have the latest Java installed and the latest Intellij Community IDE Version.
 
-Your Java version must be at least (check with powershell and type java -version).
+Your Java version must be at least 20.0.1 (check with powershell and type java -version).
 ```
 java version "20.0.1" 2023-04-18
 Java(TM) SE Runtime Environment (build 20.0.1+9-29)
