@@ -22,9 +22,9 @@ public class MoveableTank extends Moveable{
 
     //player options to choose
     private final int [] tankOption1Ints= {100,100,0};
-    private final String tankOption1Str= "tank1.png";
+    private final String tankOption1Str= "Tank1.png";
     private final int [] tankOption2Ints= {GameInfoConstants.GAME_SCREEN_WIDTH-100,GameInfoConstants.GAME_SCREEN_HEIGHT-100,180};
-    private final String tankOption2Str= "tank2.png";
+    private final String tankOption2Str= "Tank2.png";
     private int [] tankOptionInts;
     private String tankOptionStr;
     private int option;

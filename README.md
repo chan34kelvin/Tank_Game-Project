@@ -33,7 +33,18 @@ https://docs.google.com/document/d/11ERijenB2gNeqJ2-vQjpqGtCcQYjgSVv3QNRJqr59pw/
 Open terminal and choose (Ex: cd Documents) where you want to store this game and git clone this repo.
 
 ## Pre-Requisites
+
 This game requires Java to run, have the latest Java installed and the latest Intellij Community IDE Version.
+
+Your Java version must be at least (check with powershell and type java -version).
+```
+java version "20.0.1" 2023-04-18
+Java(TM) SE Runtime Environment (build 20.0.1+9-29)
+Java HotSpot(TM) 64-Bit Server VM (build 20.0.1+9-29, mixed mode, sharing)
+```
+
+If is not 20.0.1 or above install using this link. **(Choose x64 installer)**
+https://www.oracle.com/java/technologies/downloads/#jdk20-windows
 
 ## To Play Game Directly
 
